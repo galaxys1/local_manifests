@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="gh"
+fetch="git://github.com/" />
+
+
+<project path="kernel/samsung/aries" name="galaxys1/android_kernel_samsung_aries" remote="gh" revision="sokp-l5.1" />
+<project path="device/samsung/galaxysmtd" name="galaxys1/android_device_samsung_galaxysmtd" remote="gh" revision="sokp-l5.1" />
+<project path="device/samsung/aries-common" name="galaxys1/android_device_samsung_aries-common" remote="gh" revision="sokp-l5.1" />
+<project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="gh" revision="cm-12.0" />
+<project path="hardware/samsung" name="galaxys1/android_hardware_samsung" remote="gh" revision="cm-12.0" />
+<project path="packages/apps/SamsungServiceMode" name="galaxys1/android_packages_apps_SamsungServiceMode" remote="gh" revision="cm-12.0" />
+<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="galaxys1/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="gh" revision="cm-12.0" />
+<project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="galaxys1/android_prebuilts_gcc_darwin-x86_arm_arm-eabi-4.7" remote="gh" revision="cm-12.0" />
+
+
+</manifest>
